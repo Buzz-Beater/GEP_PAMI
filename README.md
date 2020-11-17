@@ -26,6 +26,9 @@ First, we show how to run experiments for activity parsing in ```breakfast_det.s
 
 Next, for activity prediction, we use prediction on CAD dataset as an example. As shown in ```cad_pred.sh```, we run baseline training/eval and also gep prediction. We report and store models' performance under different prediction duration, which could be set in the shell script. Please also change the ```LOG_PATH``` to your correct loggging path for storing the results.
 
+# Data
+For features used for reproducing experimental results, please find at [here](https://drive.google.com/file/d/1KVQtmidrjhnn4bqq-xeZ55_qfTUG6Nun/view?usp=sharing).
+
 
 
 # Citation
